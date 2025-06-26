@@ -143,7 +143,7 @@ python Trade_at_model.py
 ## ⚙️ Yapılandırma & Özelleştirme
 
 * `interval` parametresini `Agent_Control.py` içinde değiştirilerek tweet kontrol sıklığı ayarlanabilir (varsayılan: 360 saniye).
-* `schedule.every().day.at("22:40")` satırı ile günlük trade zamanlaması güncellenebilir.
+* `schedule.every().day.at("baslatilacak_saat")` satırı ile günlük trade zamanlaması güncellenebilir.
 * Tahmin modellerinin parametreleri ve sinyal eşikleri `XRP_Predict_for_run.ipynb` ve `Additional_signal.ipynb` içinde özelleştirilebilir.
 * `QUANTITY` değişkeni ile işlem adeti ayarlanabilir.
 
