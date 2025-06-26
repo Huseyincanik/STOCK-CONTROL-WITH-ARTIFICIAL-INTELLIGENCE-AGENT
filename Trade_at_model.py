@@ -26,7 +26,7 @@ with open('info_secret.json', 'r') as file:
 
 # CSV dosyasının yolu
 CSV_FILE_PATH = "future_predictions.csv"
-hedef_numara = "+905313298461"
+hedef_numara = "***"
 
 # Alım veya satım yapılacak sembol ve miktar
 SYMBOL = "XRP-TRY"
