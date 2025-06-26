@@ -31,7 +31,7 @@ with open('info_secret.json', 'r') as file:
     OKX_PASSPHRASE = config['OKX_PASSPHRASE']
     
                                
-hedef_numara = "+905313298461"
+hedef_numara = "***"
 
 
 # Tweepy Client ile V2 API'sine bağlanın
